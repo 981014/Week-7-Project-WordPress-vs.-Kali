@@ -19,7 +19,7 @@ Time spent: **8** hours spent in total
     - Create a post with this audio inside a playlist.
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/js/mediaelement/wp-playlist.js)
-2. (Required) Youtube Embedded Cross-Site Scripting
+**2. (Required) Youtube Embedded Cross-Site Scripting**
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -30,7 +30,7 @@ Time spent: **8** hours spent in total
     - Create a post with the following text: ```[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]```
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/embed.php)
-3. (Required) Comment Cross-Site Scripting
+**3. (Required) Comment Cross-Site Scripting**
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -42,7 +42,7 @@ Time spent: **8** hours spent in total
     - Make sure the character length is 64kb or more.
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/comment.php)
-4. (Optional) Vulnerability Name or ID
+**4. (Optional) Vulnerability Name or ID**
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -51,7 +51,7 @@ Time spent: **8** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-5. (Optional) Vulnerability Name or ID
+**5. (Optional) Vulnerability Name or ID**
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
