@@ -11,7 +11,8 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Playlist.gif
+  - [ ] GIF Walkthrough:  
+          https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Playlist.gif
   - [ ] Steps to recreate:  
           1. Download the .mp3 from https://www.securify.nl/advisory/SFY20160742/xss.mp3  
           2. Upload this audio file to Media Library.  
