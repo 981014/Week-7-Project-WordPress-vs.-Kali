@@ -19,11 +19,11 @@ Time spent: **8** hours spent in total
     - Create a post with this audio inside a playlist.
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/js/mediaelement/wp-playlist.js)
-2. (Required) Vulnerability Name or ID
+2. (Required) Youtube Embedded Cross-Site Scripting
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
