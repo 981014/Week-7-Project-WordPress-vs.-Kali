@@ -20,14 +20,16 @@ Time spent: **8** hours spent in total
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/js/mediaelement/wp-playlist.js)
 2. (Required) Youtube Embedded Cross-Site Scripting
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [X] GIF Walkthrough:
+    - [GIF LINK](https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Youtube.gif)
+  - [ ] Steps to recreate:
+    - Create a post with the following text: ```[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]```
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/embed.php)
 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
