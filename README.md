@@ -14,7 +14,7 @@ Time spent: **8** hours spent in total
   - [X] GIF Walkthrough:  
          https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Playlist.gif
   - [X] Steps to recreate:  
-         1. Download the .mp3 from https://www.securify.nl/advisory/SFY20160742/xss.mp3  
+         * Download the .mp3 from https://www.securify.nl/advisory/SFY20160742/xss.mp3  
          2. Upload this audio file to Media Library.  
          3. Create a post, inside this post create a playlist and add this audio file to it.
   - [X] Affected source code:
