@@ -26,9 +26,9 @@ Time spent: **8** hours spent in total
     - Fixed in version: 4.7.3
   - [X] GIF Walkthrough:
     - [GIF LINK](https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Youtube.gif)
-  - [ ] Steps to recreate:
+  - [X] Steps to recreate:
     - Create a post with the following text: ```[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]```
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/embed.php)
 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
