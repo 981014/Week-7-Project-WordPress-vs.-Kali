@@ -1,24 +1,20 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **8** hours spent in total
+Time spent: **X** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) Audio Playlist Cross-Site Scripting
-  - [X] Summary: 
-    - Vulnerability types: XSS
-    - Tested in version: 4.2.2
-    - Fixed in version: 4.7.3
-  - [X] GIF Walkthrough:
-    - https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Playlist.gif
-  - [X] Steps to recreate:
-    - Download the .mp3 from https://www.securify.nl/advisory/SFY20160742/xss.mp3  
-    - Upload this audio file to Media Library.  
-    - Create a post, inside this post create a playlist and add this audio file to it.
-  - [X] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/js/mediaelement/wp-playlist.js)
+1. (Required) Vulnerability Name or ID
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+  - [ ] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
