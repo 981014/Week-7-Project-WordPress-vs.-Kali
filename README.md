@@ -1,12 +1,25 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) Audio Playlist Cross-Site Scripting
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.7.3
+  - [X] GIF Walkthrough:
+    - [GIF LINK](https://raw.githubusercontent.com/981014/Week-7-Project-WordPress-vs.-Kali/master/XSS%20Playlist.gif)
+  - [X] Steps to recreate: 
+    - Download the .mp3 from https://www.securify.nl/advisory/SFY20160742/xss.mp3
+    - Upload this audio file to Media Library.
+    - Create a post with this audio inside a playlist.
+  - [X] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/js/mediaelement/wp-playlist.js)
+2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -15,7 +28,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -24,7 +37,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -33,16 +46,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
