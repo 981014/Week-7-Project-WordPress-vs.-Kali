@@ -6,7 +6,7 @@ Time spent: **8** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Audio Playlist Cross-Site Scripting
+**1. (Required) Audio Playlist Cross-Site Scripting**
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
