@@ -53,15 +53,19 @@ Time spent: **8** hours spent in total
     - Paste the following code to kali-linux terminal: ```wpscan --url wpdistillery.vm --enumerate u```
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-login.php)
-5. **(Optional) Vulnerability Name or ID**
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+5. **(Optional) Password Bruteforce Attack**
+  - [X] Summary: 
+    - Vulnerability types: Bruteforce Attack
+    - Tested in version: 4.2
+    - Fixed in version: 4.7.3
+  - [X] GIF Walkthrough:
+    - [GIF LINK](https://github.com/981014/Week-7-Project-WordPress-vs.-Kali/blob/master/Bruteforce%20Password.gif)
+  - [X] Steps to recreate:
+    - Download the wordlist: ```apt-get install wordlists```
+    - Extract the wordlist inside: ```/usr/share/wordlists/```
+    - Paste the following code to kali-linux terminal: ```wpscan --url wpdistillery.vm --wordlist /usr/share/wordlists/rockyou.txt --username admin```
+  - [X] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-login.php) 
 
 ## Assets
 
