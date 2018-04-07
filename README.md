@@ -51,7 +51,7 @@ Time spent: **8** hours spent in total
     - [GIF LINK](https://github.com/981014/Week-7-Project-WordPress-vs.-Kali/blob/master/Username%20Enumeration.gif)
   - [X] Steps to recreate:
     - Paste the following code to kali-linux terminal: ```wpscan --url wpdistillery.vm --enumerate u```
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-login.php)
 5. **(Optional) Vulnerability Name or ID**
   - [ ] Summary: 
