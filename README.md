@@ -42,7 +42,7 @@ Time spent: **8** hours spent in total
     - Make sure the character length is 64kb or more.
   - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/comment.php)
-4. **(Optional) Vulnerability Name or ID**
+4. **(Optional) User Enumeration**
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
